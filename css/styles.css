@@ -4710,3 +4710,38 @@ input[type="button"].btn--primary:focus {
         margin-right: 1.4rem;
     }
 }
+
+.skills-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+    margin-top: 2rem;
+}
+
+.skill-card {
+    border: 1px solid #bbb;
+    border-radius: 16px;
+    padding: 2.5rem;
+    background-color: #fff;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    min-height: 220px;
+}
+
+.skill-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.12);
+}
+
+.skill-card h4 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #1a1a1a;
+}
+
+.skill-card p {
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #333;
+}
+
