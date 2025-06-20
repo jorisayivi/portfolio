@@ -100,7 +100,7 @@
      * color-2(#F06000)
      */
     --color-1: hsla(182, 82%, 38%, 1);
-    --color-2: hsla(24, 100%, 47%, 1);
+    --color-2: rgb(197, 234, 255);
 
     /* theme color variations
      */
@@ -3447,7 +3447,7 @@ input[type="button"].btn--primary:focus {
     bottom: 0;
     width: 100%;
     height: 100%;
-    background-image: url(../images/header-bg-3000.jpg);
+    background-image: url(../images/header.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
